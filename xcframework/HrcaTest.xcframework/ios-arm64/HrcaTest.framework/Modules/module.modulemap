@@ -1,0 +1,11 @@
+framework module HrcaTest {
+  umbrella header "HrcaTest.h"
+
+  export *
+  module * { export * }
+}
+
+module HrcaTest.Swift {
+    header "HrcaTest-Swift.h"
+    requires objc
+}
